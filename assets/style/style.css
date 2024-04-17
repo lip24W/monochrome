@@ -1,0 +1,1418 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .languale{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .languale h2{
+   font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    
+    margin-bottom: 16px;
+    transition: .5s;
+   
+}
+
+
+.header .container .languale a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.header .container .logootip h2{
+   font-size: 18px;
+    font-family: 'Netural';
+    font-weight: 500;
+    
+}
+
+
+.header .container .logo{
+    display: flex;
+    align-items: center;
+    
+}
+.header .container .logo .fa-magnifying-glass{
+    
+    color: black;
+}
+.header .container .logo .fa-user{
+    
+    color: black;
+}
+.header .container .logo .fa-cart-shopingping{
+    color: black;
+}
+.header .container .logo a{
+    margin-right: 20px;
+}
+
+
+.huk{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+.sol{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sol .container{
+    display: flex;
+    justify-content: center;
+}
+.sol .container a{
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+
+}
+.sol .container h2{
+   font-size: 14px;
+    font-family: 'Netural';
+    font-weight: 500;
+    transition: .5s;
+    
+}
+
+
+.shoping .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.shoping .container .title{
+    display: flex;
+}
+
+.shoping .container .title h1{
+   font-size: 138px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.shoping .container .title h2{
+   font-size: 18px;
+    font-family: 'Manrope';
+    margin-left: 10px;
+}
+.shoping .container .title h2{
+    margin-top: 167px;
+}
+.shoping .container .fotochli{
+    display: flex;
+    
+}
+.shoping .container .diva{
+    background: url(../img/1.jpg);
+    width: 850px;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+.shoping .container .telka{
+    background: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 450px;
+    margin-left: 25px;
+}
+.milo{
+    margin-top: 165px;
+}
+.milo .container{
+    display: flex;
+    flex-direction: column;
+}
+.milo .container .stroka{
+   font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.milo .container .photopov{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.milo .container .photopov .photopov1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.milo .container .photopov .bass-photopov{
+    background: url(../img/3.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+.milo .container .photopov .photopov1 h2{
+   font-size: 22px;
+    font-family: 'Manrope';
+}
+
+
+.milo .container .photopov .photopov2{
+    display: flex;
+    flex-direction: column;
+}
+.milo .container .photopov .dssss-photopov{
+    background: url(../img/4.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+
+}
+.milo .container .photopov .photopov2 h2{
+   font-size: 22px;
+    font-family: 'Manrope';
+}
+
+.milo .container .photopov .photopov3{
+    display: flex;
+    flex-direction: column;
+}
+.milo .container .photopov .conets-photopov{
+    background: url(../img/5.jpg);
+    height: 400px;
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+}
+
+.milo .container .photopov .photopov3 h2{
+   font-size: 22px;
+    font-family: 'Manrope';
+}
+.collection{
+    margin-top: 170px;
+}
+.collection .big{
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.collection .big .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection .big .container h2{
+    text-align: center;
+    color: #fafafa;
+   font-size: 100px;
+    font-family: 'Netural';
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 170px;
+}
+.collection .big .container h3{
+    text-align: center;
+    color: #fafafa;
+   font-size: 32px;
+    font-family: 'Manrope';
+    font-weight: 300;
+    margin-top: 10px;
+}
+.collection .big .container button{
+    height: 84px;
+    width: 320px;
+   font-size: 18px;
+    font-family: 'Netural';
+    margin-top: 20px;
+    transition: .5s;
+}
+.collection .big .container button:hover{
+    background: none;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: .3s;
+}
+.seria{
+    margin-top: 165px;
+}
+.seria .container .nova_seria{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 74px;
+    margin-bottom: 0;
+}
+.seria .container .zima{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 74px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+}
+
+.seria .container .nova_seson{
+    display: flex;
+    justify-content: space-between;
+}
+.seria .container .nova_seson h2{
+    font-family: 'Manrope';
+   font-size: 22px;
+}
+.seria .container .nova_seson .costumchikiki .costumchiki{
+    background: url(../img/7.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
+    background: url(../img/8.jpg);
+    height: 210px;
+    width: 370px;
+}
+.seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
+    background: url(../img/9.jpg);
+    height: 210px;
+    width: 370px;
+}
+.seria .container .nova_seson .costumchikiftz .costumchiki4{
+    background: url(../img/10.jpg);
+    height: 485px;
+    width: 365px;
+}
+.veshi{
+    margin-top: 125px;
+}
+.veshi .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.veshi .container .green_girl{
+    background: url(../img/11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 680px;
+}
+.veshi .container .pokupka .star{
+    display: flex;
+    flex-direction: column;
+
+}
+.veshi .container .pokupka .star .color h2{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.veshi .container .pokupka .star .color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.veshi .container .pokupka .star .color .ocenka{
+    display: flex;
+    align-items: center;
+}
+.veshi .container .pokupka .star .color .live{
+    font-family: 'Manrope';
+   font-size: 14px;
+}
+.veshi .container .pokupka .star .color .fa-star{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+.veshi .container .pokupka .star .opisi{
+    font-family: 'Manrope';
+   font-size: 22px;
+}
+
+.veshi .container .pokupka .farm{
+    display: flex;
+    flex-direction: column;
+}
+.veshi .container .pokupka .farm .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.veshi .container .pokupka .farm .text h2{
+    font-family: 'Manrope';
+   font-size: 14px;
+   position: relative;
+   margin-left: 50px;
+}
+.veshi .container .pokupka .farm .text a{
+    font-family: 'Manrope';
+   font-size: 14px;
+    color: black;
+    position: relative;
+    margin-right: 50px;
+}
+.veshi .container .pokupka .farm .cheko { 
+    width: 470px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
+    
+}
+.veshi .container .pokupka .farm .cheko .text {
+    margin-left: 20px;
+    font-family: 'Manrope';
+   font-size: 15px;
+    align-items: center;
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.veshi .container .pokupka .bag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+.veshi .container .pokupka .bag h2{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 38px;
+}
+.veshi .container .pokupka .bag input{
+    width: 270px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: 20px;
+    font-family: 'Manrope';
+   font-size: 15px;
+    
+}
+
+
+
+.veshi .container .pokupka .bag input::-webkit-input-placeholder{
+    padding-left: 20px;
+    color: rgb(192, 192, 192);
+}
+.veshi .container .pokupka .katalog{
+    width: 470px;
+    height: 64px;
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Netural';
+   font-size: 14px;
+    transition: .5s;
+}
+.veshi .container .pokupka .katalog:hover{
+    background-color:rgb(124, 124, 124);
+    border: none;
+    transition: .3s;
+}
+.veshi .container .pokupka .costum{
+    margin-top: 55px;
+}
+.veshi .container .pokupka .costum label{
+    margin-right: 55px;
+}
+.veshi .container .pokupka .costum .gogol{
+    margin-top: 30px;
+}
+.veshi .container .pokupka .costum .gogol .text{
+    font-family: 'Manrope';
+   font-size: 16px;
+    font-weight: 600;
+}
+.veshi .container .pokupka{
+    margin-left: 50px;
+    width: 470px;
+}
+.veshi .container .pokupka .costum .gogol{
+    width: 100%;
+    overflow: hidden;
+}
+.veshi .container .pokupka .costum .gogol .line{
+    width: 300%;
+    display: flex;
+}
+.veshi .container .pokupka .costum .gogol .line .text{
+    width: calc(100%/3);
+    transition: 1s;
+}
+
+#input1:checked ~ .gogol .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .gogol .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .gogol .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    text-decoration: underline;
+    color: black;
+}
+.veshi .container .pokupka .costum input{
+    display: none;
+}
+.veshi .container .pokupka .costum label{
+    font-family: 'Manrope';
+   font-size: 14px;
+    font-weight: 600;
+    color: rgb(192, 192, 192);
+}
+.dop{
+    margin-top: 120px;
+    background-color: black;
+    height: 266px;
+}
+.dop .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+
+}
+.dop .container h2{
+    color: #fafafa;
+   font-size: 16px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.dop .container h3{
+    color: #fafafa;
+   font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+}
+.dop .container .dost .fa-plane{
+    color: #fafafa;
+    width: 36px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.dop .container .disk .fa-user{
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.dop .container .bez .fa-lock{
+    color: #fafafa;
+    width: 30px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.dop .container .sale .fa-percent{
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+.history{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.history .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.history .container .adoba{
+    background: url(../img/12.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+}
+
+.history .container .karusel h2{
+   font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+.history .container .karusel h3{
+    font-family: 'Manrope';
+    
+    font-weight: 500;
+   font-size: 22px;
+}
+.scrin{
+    background-color: black;
+    padding-bottom: 100px;
+    
+}
+.scrin .container{
+    display: flex;
+    flex-direction: column;
+}
+.scrin .container h2{
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 70px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+.scrin .container .rosa{
+    text-align: end;
+    margin-top: 0;
+}
+.scrin .container .txt{
+    display: flex;
+    justify-content: space-between;
+}
+.scrin .container .txt .text-telka h3{
+    font-family: 'Manrope';
+   font-size: 22px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 40px;
+}
+.scrin .container .txt .text-telka .orange{
+    background: url(../img/13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 365px;
+}
+.scrin .container .txt .input h3{
+    font-family: 'Manrope';
+   font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+.scrin .container .txt .input{
+    margin-top: 10px;
+}
+.scrin .container .txt .input .abs{
+    width: 470px;
+    height: 50px;
+    background: none;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+
+.scrin .container .txt .input .abs[type=text]{
+    padding-left: 20px;
+}
+.scrin .container .txt .input .abs[type=tel]{
+    padding-left: 20px;
+}
+.scrin .container .txt .input .abs[type=email]{
+    padding-left: 20px;
+}
+
+.scrin .container .txt .vibor{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.scrin .container .txt .vibor label{
+    font-family: 'Manrope';
+   font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+
+    
+}
+.scrin .container .txt .vibor input{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    
+}
+.scrin .container .txt .vibor .bass {
+    display: flex;
+    align-items: center;
+}
+.scrin .container .txt .vibor .bass input{
+    margin-left: 0;
+}
+.scrin .container .txt .vibor .dssss{
+    display: flex;
+    align-items: center;
+}
+.scrin .container .txt .vibor .conets{
+    display: flex;
+    align-items: center;
+}
+.scrin .container .txt .razrabotka{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.scrin .container .txt .razrabotka label{
+    font-family: 'Manrope';
+   font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+}
+.scrin .container .txt .razrabotka input{
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+    
+}
+
+.scrin .container .txt .input .vib-rosa{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.scrin .container .txt .input .self{
+    width: 470px;
+    height: 64px;
+    background-color: #fafafa;
+    color: black;
+    font-family: 'Netural';
+    font-weight: 500;
+   font-size: 14px;
+    transition: .5s;
+}
+.scrin .container .txt .input .self:hover{
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: .3s;
+}
+.foot{
+    background-color: #fafafa;
+    width: 100%;
+    height: 2px;
+}
+.zvonok{
+    background-color: black;
+}
+.zvonok .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.zvonok .container h3{
+    font-family: 'Manrope';
+   font-size: 12px;
+    font-weight: 500;
+    color: #fafafa;
+}
+.zvonok .container .icon{
+    display: flex;
+    align-items: center;
+    
+}
+.zvonok .container .fa-vk{
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+    
+}
+.zvonok .zvonok .bi-facebook{
+    color: #fafafa;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    border: 1px solid #fafafa;
+    margin-bottom: 2px;
+}
+.zvonok .container a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+
+    .scrin .container .txt{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .scrin .container h2{
+       font-size: 54px !important;
+        margin-left: 100px;
+    }
+    .scrin .container .rosa{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .zvonok .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .history .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+    .history .container .karusel h2{
+       font-size: 40px;
+    }
+    .history .container .karusel h3{
+       font-size: 18px;
+    }
+    .dop .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .veshi .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .veshi .container .pokupka{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .veshi .container .green_girl{
+        height: 600px;
+        width: 470px;
+    }
+
+    .seria .container .nova_seson{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seria .container .nova_seria{
+       font-size: 54px;
+        margin-left: 80px;
+    }
+    .seria .container .zima{
+       font-size: 54px;
+        margin-right: 80px;
+    }
+    .collection .big{
+        height: 600px;
+    }
+    .collection .container h2{
+       font-size: 50px !important;
+        margin-top: 70px !important;
+    }
+    .collection .container h3{
+       font-size: 24px !important;
+        
+    }
+    .collection .container button{
+        width: 250px !important;
+        height: 70px !important;
+    }
+    .milo .container .stroka{
+        display: flex;
+        justify-content: center;
+    }
+    .milo .container .photopov{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shoping .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shoping .container .title h1{
+       font-size: 110px;
+    }
+    .shoping .container .title h2{
+        margin-top: 138px;
+    }
+    .shoping .container .fotochli .diva{
+        width: 690px;
+    }
+    .shoping .container .fotochli .telka{
+        width: 260px;
+    }
+    .header .container{
+        padding-left: 20px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 768px;
+    }
+
+
+    .scrin .container h2{
+        margin-left: 50px;
+    }
+    .history .container{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .history .container .karusel h3{
+       font-size: 14px;
+        
+    }
+    .history .container .adoba{
+        width: 300px;
+        height: 400px;
+    }
+    
+    .dop .container{
+        padding-top: 60px;
+    }
+    .dop .container h2{
+       font-size: 14px;
+    }
+    .dop .container h3{
+       font-size: 12px;
+    }
+    .collection .big{
+        height: 600px !important;
+    }
+    .collection .container h2{
+       font-size: 54px !important;
+    }
+    .collection .container h3{
+       font-size: 24px !important;
+    }
+    .collection .container button{
+        width: 170px !important;
+        height: 60px !important;
+       font-size: 12px !important;
+    }
+    .milo .container{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .milo .container .stroka{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .shoping .container .title h1{
+       font-size: 74px;
+    }
+    .shoping .container .title h2{
+        margin-top: 100px;
+    }
+    .shoping .container .fotochli .diva{
+        width: 450px !important;
+    }
+    .shoping .container .fotochli .telka{
+        width: 260px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+
+    .zvonok .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .scrin .container h2{
+       font-size: 34px !important;
+    }
+    .history .container .adoba{
+        height: 300px;
+    }
+    .history .container .karusel h2{
+       font-size: 24px;
+    }
+    .history .container .karusel h3{
+       font-size: 18px;
+    }
+    .history .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .history{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .dop .container h2{
+       font-size: 13px;
+    }
+    .dop .container h3{
+       font-size: 11px;
+    }
+    .seria .container .nova_seria{
+       font-size: 34px;
+    }
+    .seria .container .zima{
+       font-size: 34px;
+    }
+    .collection .big{
+        height: 400px !important;
+    }
+    .collection .container h2{
+       font-size: 34px !important;
+        margin-top: 40px !important;
+    }
+    .collection .container h3{
+       font-size: 18px !important;
+    }
+    .shoping .container{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .shoping .container .title h1{
+       font-size: 54px;
+    }
+    .shoping .container .title h2{
+       font-size: 14px;
+    }
+    .shoping .container .fotochli .diva{
+        width: 330px !important;
+        background-position-x: -310px !important;
+    }
+    .shoping .container .fotochli .telka{
+        width: 200px !important;
+    }
+    .sol .container a{
+        margin-right: 20px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+    }
+
+    .sale h2 {
+        position: relative;
+        margin-top: -29px;
+    }
+    .milo .container .stroka{
+       font-size: 34px !important;
+    }
+    .scrin .container h2{
+        margin-top: 40px;
+    }
+    .scrin .container .txt .text-telka h3{
+       font-size: 16px
+    }
+    .scrin .container .txt .text-telka .orange{
+        width: 400px !important;
+    }
+    .scrin .container .txt .input{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .scrin .container .txt .input .abs{
+        width: 400px !important;
+    }
+    .scrin .container .txt .input .vibor{
+        display: flex;
+        flex-direction: column;
+    }
+    .scrin .container .txt .input .vibor .dssss input{
+        margin-left: 0;
+    }
+    .scrin .container .txt .input .vibor .conets input{
+        margin-left: 0;
+    }
+    .scrin .container .txt .input button{
+        width: 400px !important;
+    }
+    .scrin .container h2{
+        margin-left: 40px !important;
+    }
+    .history .container .karusel h3{
+       font-size: 15px !important;
+    }
+    .dop .container h2{
+       font-size: 11px !important;
+    }
+    .dop .container h3{
+       font-size: 8px !important;
+    }
+    .dop .container{ padding-top: 50px !important;}
+    .dop{
+        margin-top: 40px !important;
+        height: 220px !important;
+    }
+    .veshi .container .pokupka .cheko select{
+        width: 400px !important;
+    }
+    .veshi .container .pokupka .bag input{
+        width: 200px !important;
+        margin-left: 20px !important;
+    }
+    .veshi .container .pokupka .bag h2{
+        margin-right: 20px !important;
+    }
+    .veshi .container .pokupka button{
+        width: 400px !important;
+    }
+    .veshi .container .pokupka{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+    .veshi .container .pokupka .bigtext{
+       font-size: 14px !important;
+    }
+    .veshi .container .green_girl{
+        width: 400px !important;
+        height: 500px !important;
+    }
+    .veshi{margin-top: 40px !important;}
+    .seria{
+        margin-top: 40px !important;
+    }
+    .collection{
+        margin-top: 40px !important;
+    }
+    .collection .container h3{
+       font-size: 14px !important;
+    }
+    .collection .container button{
+        width: 140px !important;
+        height: 50px !important;
+       font-size: 10px !important;
+    }
+    .milo{
+        margin-top: 40px !important;
+    }
+    .shoping .container .fotochli{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shoping .container .fotochli .diva{
+        width: 450px !important;
+        height: 180px !important;
+        background-position-x: -10px !important;
+    }
+    .shoping .container .fotochli .telka{
+        width: 450px !important;
+        height: 180px !important;
+        margin-left: 0;
+        margin-top: 10px !important;
+        background-size: cover;
+        background-position-y: -30px !important;
+    }
+    .shoping .container .title h2{
+       font-size: 12px !important;
+        margin-top: 63px !important;
+    }
+    .sol .container a{
+        margin-right: 10px !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+        overflow-x: hidden;
+    }
+    
+    .scrin .container h2{
+       font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+        
+    }
+    .scrin .container .rosa{
+        margin-left: 0 !important;
+        text-align: center;
+        
+    }
+    .scrin .container .txt .text-telka h3{
+       font-size: 11px !important;
+       
+    }
+    .scrin .container .txt .text-telka .orange{
+        width: 270px !important;
+        
+    }
+    .scrin .container .txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scrin .container .txt .input .abs{
+        width: 260px !important;
+    }
+    .scrin .container .txt .input button{
+        width: 260px !important;
+    }
+    .scrin .container .txt .input{
+       padding: 0 !important;
+        width: 270px !important;
+       
+        
+    }
+
+    .history .container .karusel h3{
+       font-size: 11px !important;
+    }
+    .history .container .adoba{
+        width: 270px !important;
+    }
+    .dop .container .dost .fa-plane{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .dop .container .disk .fa-user{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .dop .container .bez .fa-lock{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .dop .container .salecent{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px !important;
+    }
+    .dop .container{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .dop .container h2{
+       font-size: 7px !important;
+
+    }
+    .dopr h3{
+       font-size: 8px !important;
+        
+    }
+    .veshi .container .pokupka{
+        padding-right: 0 !important;
+        
+        width: 280px;
+    }
+    .veshi .container .pokupka .costum .gogol .line .text1{
+       font-size: 12px !important;
+    }
+    .veshi .container .pokupka .costum .gogol .line .text2{
+       font-size: 12px !important;
+    }
+    .veshi .container .pokupka .costum .gogol .line .text3{
+       font-size: 12px !important;
+    }
+    .veshi .container .green_girl{
+        width: 270px !important;
+        height: 480px !important;
+    }
+    .veshi .container .pokupka .cheko select{
+        width: 280px !important;
+    }
+    .veshi .container .pokupka .bag input{
+        width: 200px !important;
+        margin-left: 5px !important;
+    }
+    .veshi .container .pokupka button{
+        width: 220px !important;
+        margin-top: 20px !important;
+    }
+    .veshi .container .star .color h2{
+       font-size: 18px !important;
+    }
+    .veshi .container .star .opisi{
+       font-size: 16px !important;
+    }
+    .veshi .container .pokupka .bag h2{
+       font-size: 18px !important;
+        margin-right: 0 !important;
+    }
+    
+    .veshi .container .pokupka .costum label{
+       font-size: 12px !important;
+        margin-right: 5px !important;
+    }
+    .veshi .container .pokupka .costum .gogol .text1{
+       font-size: 14px !important;
+    }
+    .veshi .container .pokupka .costum{
+        margin-top: 20px;
+    }
+    .veshi .container .pokupka .costum .gogol .text2{
+       font-size: 14px !important;
+    }
+    .veshistum .gogol .text3{
+       font-size: 14px !important;
+    }
+    .seria .container .nova_seria{
+       font-size: 18px !important;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+    .seria .container .zima{
+       font-size: 18px !important;
+        justify-content: center;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .seria .container .nova_seson .costumchikiki .costumchiki{
+        width: 260px !important;
+        height: 350px !important;
+        background-position-x: -80px;
+    }
+    .seria .container .nova_seson .costumchikiki h2{
+       font-size: 16px !important;
+    }
+    .seria .container .nova_seson .costumchikidssss-thrd .costumchiki2{
+        width: 260px !important;
+    }
+    .seria .container .nova_seson .costumchikidssss-thrd .costumchiki3{
+        width: 260px !important;
+    }
+    .seria .container .nova_seson .costumchikidssss-thrd h2{
+       font-size: 16px !important;
+    }
+    .seria .container .nova_seson .costumchikiftz .costumchiki4{
+        width: 260px !important;
+    }
+    .seria .container .nova_seson .costumchikiftz h2{
+       font-size: 16px !important;
+    }
+    .collection .big{
+        height: 300px !important;
+    }
+    .collection .big .container h2{
+       font-size: 20px !important;
+    }
+    .collection .big .container h3{
+       font-size: 10px !important;
+    }
+    .collection .big .container button{
+        width: 100px !important;
+        height: 30px !important;
+       font-size: 7px !important;
+    }
+    .milo .container .stroka{
+       font-size: 18px !important;
+    }
+    .milo .container .photopov h2{
+       font-size: 16px !important;
+    }
+    .milo .container .photopov .photopov1 .bass-photopov{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .milo .container .photopov .photopov2 .dssss-photopov{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .milo .container .photopov .photopov3 .conets-photopov{
+        width: 255px !important;
+        height: 300px !important;
+    }
+    .shoping .container .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .shoping .container .title h1{
+       font-size: 34px !important;
+    }
+    .shoping .container .title h2{
+       font-size: 14px !important;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+    .shoping .container .fotochli .diva{
+        width: 255px !important;
+        background-position-x: -60px !important;
+    }
+    .shoping .container .fotochli .telka{
+        width: 255px !important;
+    }
+    .sol .container h2{
+       font-size: 9px !important;
+    }
+    .sol .container a{
+        margin-right: 5px !important;
+    }
+   
+    .header .container .languale .planet img{
+        width: 15px;
+        height: 15px;
+    }
+    .header .container .languale h2{
+       font-size: 10px !important;
+    }
+    .header .container .languale a{
+        margin-top: 5px !important;
+    }
+    .header .container .logootip h2{
+       font-size: 12px !important;
+    }
+    .header .container .logo .fa-magnifying-glass{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container .logo a{
+        margin-right: 5px !important;
+    }
+    .header .container .logo .fa-user{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container .logo .fa-cart-shopingping{
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .header .container{
+        padding-left: 5px !important;
+        display: flex;
+        align-items: center;
+    }
+    
+}
